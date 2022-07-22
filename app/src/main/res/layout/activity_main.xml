@@ -10,9 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="450dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dsc_6658" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/button"
@@ -43,12 +41,12 @@
         android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="145dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:hint="Category"
+        android:layout_below="@+id/imageView"
         android:importantForAutofill="yes"
         android:inputType="textPersonName"
         android:minHeight="48dp"
